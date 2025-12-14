@@ -7,11 +7,14 @@ import "swiper/css/pagination"
 
 const images = [
     "/Hero/h1.webp",
+    "/bg.webp",
+    "/g1.webp",
+    "/g2.webp",
     "/Hero/h2.webp",
     "/Hero/h3.webp",
     "/Hero/h1.webp",
     "/Hero/h2.webp",
-    
+    "/g3.webp",
 ]
 
 const GallarySlider = () => {

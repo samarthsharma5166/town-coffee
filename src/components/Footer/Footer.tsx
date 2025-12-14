@@ -76,6 +76,20 @@ const Footer = () => {
                         <h1 className='text-base font-bold text-gray-100 mt-1'>example@gmail.com</h1>
                     </div>
                 </div>
+                <div className='col-span-2'>
+                    <h1 className='text-lg text-white font-bold'>Our Location</h1>
+                    <div className='mt-6'>
+                        <iframe
+                            src="https://maps.google.com/maps?q=Plot%20No.%20E,%2095,%20Jai%20Jawan%20Marg,%20Lal%20Bahadur%20Nagar,%20Adinath%20Nagar,%20Jaipur,%20Rajasthan%20302018&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            width="100%"
+                            height="250"
+                            style={{ border: 0 }}
+                            allowFullScreen={true}
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
             </div>
 
             <div className='mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm'>
